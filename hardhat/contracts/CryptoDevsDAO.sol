@@ -35,6 +35,7 @@ interface ICryptoDevsNFT {
     ) external view returns (uint256);
 }
 
+// contract address: 0x44f233365740a8aeB1ffAD9AB854526B2984D1De
 contract CryptoDevsDAO is Ownable {
     // create struct named Proposal containing all relevant info
     struct Proposal {
